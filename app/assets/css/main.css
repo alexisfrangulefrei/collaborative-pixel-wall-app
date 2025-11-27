@@ -1,0 +1,40 @@
+/* Global theme tokens shared across the Nuxt app */
+:root {
+	font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+	color: #0f172a;
+	background-color: #010817;
+	--panel-bg: rgba(255, 255, 255, 0.9);
+	--panel-shadow: 0 30px 60px rgba(15, 23, 42, 0.25);
+}
+
+/* Normalize sizing so layout math stays predictable */
+* {
+	box-sizing: border-box;
+}
+
+html,
+body,
+#__nuxt {
+	min-height: 100vh;
+}
+
+/* Base body palette for the starfield backdrop */
+body {
+	margin: 0;
+	background: #010817;
+	color: #0f172a;
+}
+
+#__nuxt {
+	position: relative;
+	isolation: isolate;
+}
+
+/* Main content wrapper constrains the app width */
+main {
+	width: min(1200px, 95vw);
+	margin: 0 auto;
+	padding: 2rem 1rem 3rem;
+	position: relative;
+	z-index: 1;
+}
