@@ -22,7 +22,7 @@ Une fresque collaborative : chacun rejoint la session, choisit un avatar, sél
 
 ## Version en ligne
 
-- Lien vers l'application déployée : [TODO](TODO)
+- Lien vers l'application déployée : [https://collaborative-pixel-wall-app.onrender.com/](https://collaborative-pixel-wall-app.onrender.com/)
 
 ## Technologies principales
 
